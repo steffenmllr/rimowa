@@ -1,9 +1,9 @@
 name: Trigger email
 on:
   workflow_dispatch:
-  schedule:
-    # Runs https://crontab.guru/#0_18_*_*_*
-    - cron: '*/30 * * * *'
+#  schedule:
+#    # Runs https://crontab.guru/#0_18_*_*_*
+#    - cron: '*/30 * * * *'
 jobs:
   build:
     name: Trigger Site Rebuild
